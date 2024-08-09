@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coffee.Infrastructure\Coffee.Infrastructure.csproj" />
+    <ProjectReference Include="..\Coffee\Coffee.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Abtractions\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abtractions\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+</Project>
