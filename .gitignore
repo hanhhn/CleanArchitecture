@@ -265,12 +265,3 @@ IVY Application_User Manual_WithNote_v1.1.pptx
 Note_Ivy.txt
 appsettings.*.json
 *.settings.json
-
-doc/inputJson
-doc/ruleResult
-temp
-/MKT/AIA.D365Integration.MKT.FunctionApp/local.settings.json
-/AIA.D365Integration.WorkerWebApp/Exports
-/AIA.D365Integration.WorkerWebApp/Imports
-/AIA.D365Integration.WorkerWebApp/Aspose.Total.lic
-output/test
